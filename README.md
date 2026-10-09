@@ -67,5 +67,6 @@ Photography Portfolio/
 The local server is running in the background at **`http://localhost:3000`**.
 To start it manually at any time:
 ```bash
+  
 python -m http.server 3000
 ```
