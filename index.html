@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Raghav Soni - Second-Year Computer Science Engineering student at Lakshmi Narain College of Technology &amp; Science (LNCTS), Bhopal.">
+  <title>Raghav Soni | Computer Science &amp; Engineering Student</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        Raghav Soni<span class="logo-dot">.</span><span class="logo-subtitle">CSE</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-action">
+          <a href="assets/resumeraghav.pdf" target="_blank" download="Raghav_Soni_Resume.pdf" class="btn btn-outline btn-sm">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="12" y1="18" x2="12" y2="12"></line>
+              <line x1="9" y1="15" x2="15" y2="15"></line>
+            </svg>
+            Resume
+          </a>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- 1. Hero Section -->
+    <section class="hero section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <!-- Availability / Academic Tag -->
+          <div class="badge-pill hero-badge">
+            <span class="status-indicator"></span>
+            <span>Second-Year CSE Student &bull; LNCTS, Bhopal</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-accent">Raghav Soni</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            Computer Science &amp; Engineering Student
+          </h2>
+
+          <p class="hero-description">
+            I'm a second-year CSE student at Lakshmi Narain College of Technology &amp; Science (LNCTS), Bhopal, building my foundation in Java programming and web development. I enjoy learning new technologies and plan to explore Data Structures and Algorithms in Java next.
+          </p>
+
+          <!-- Call To Action Buttons -->
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Contact Me
+            </a>
+            <a href="https://github.com/raghavsoni5053-rgb" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Visit Raghav Soni's GitHub profile">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              GitHub Profile
+            </a>
+            <a href="https://www.linkedin.com/in/raghav-soni-1500a0393" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="Visit Raghav Soni's LinkedIn profile">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              LinkedIn
+            </a>
+            <a href="assets/resumeraghav.pdf" target="_blank" download="Raghav_Soni_Resume.pdf" class="btn btn-ghost">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              Resume PDF
+            </a>
+          </div>
+
+          <!-- Verified Academic Statistics -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-num">Second-Year</span>
+              <span class="stat-label">B.Tech CSE (2025–2029)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">7.8</span>
+              <span class="stat-label">First-Semester CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">79%</span>
+              <span class="stat-label">Class XII (CBSE 2024)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">85.6%</span>
+              <span class="stat-label">Class X (CBSE 2022)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Executive Candidate Summary Card -->
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-card-header">
+              <div class="profile-avatar-badge">RS</div>
+              <div>
+                <h3 class="profile-card-name">Raghav Soni</h3>
+                <p class="profile-card-subtitle">Second-Year B.Tech CSE Student</p>
+              </div>
+            </div>
+            <div class="profile-card-body">
+              <div class="profile-info-row">
+                <span class="profile-info-label">Institution</span>
+                <span class="profile-info-val">LNCTS, Bhopal</span>
+              </div>
+              <div class="profile-info-row">
+                <span class="profile-info-label">Affiliation</span>
+                <span class="profile-info-val">RGPV University</span>
+              </div>
+              <div class="profile-info-row">
+                <span class="profile-info-label">Graduation Year</span>
+                <span class="profile-info-val">2029 (Expected)</span>
+              </div>
+              <div class="profile-info-row">
+                <span class="profile-info-label">1st Sem CGPA</span>
+                <span class="profile-info-val highlight-blue">7.8 / 10.0</span>
+              </div>
+              <div class="profile-info-row">
+                <span class="profile-info-label">Current Focus</span>
+                <span class="profile-info-val">Java Programming</span>
+              </div>
+              <div class="profile-info-row">
+                <span class="profile-info-label">Web Technologies</span>
+                <span class="profile-info-val">HTML, CSS</span>
+              </div>
+              <div class="profile-info-row">
+                <span class="profile-info-label">Upcoming Goal</span>
+                <span class="profile-info-val">DSA in Java</span>
+              </div>
+            </div>
+            <div class="profile-card-footer">
+              <span class="verified-pill">&#x2714; Verified Student Profile</span>
+              <a href="https://github.com/raghavsoni5053-rgb" target="_blank" rel="noopener noreferrer" class="profile-github-link">github.com/raghavsoni5053-rgb &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">01. Overview</p>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card-main">
+            <h3 class="about-heading">
+              Second-year Computer Science Engineering student building strong technical foundations.
+            </h3>
+            <p class="about-text">
+              Hello! I'm <strong>Raghav Soni</strong>, a second-year Computer Science Engineering student at 
+              <strong>Lakshmi Narain College of Technology &amp; Science (LNCTS), Bhopal</strong>, affiliated with 
+              <strong>Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)</strong>.
+            </p>
+            <p class="about-text">
+              I am passionate about programming, web development, and continuously improving my technical skills. My primary career goal is to 
+              <strong>build a strong foundation in software development, problem-solving, and data structures and algorithms</strong>.
+            </p>
+            <p class="about-text">
+              Currently, I am focusing on core programming in Java along with front-end web development using HTML and CSS, with plans to explore Data Structures and Algorithms in Java next. I value continuous learning, logical reasoning, and collaborative growth.
+            </p>
+
+            <div class="interests-container">
+              <h4 class="interests-title">Core Goals &amp; Focus Areas:</h4>
+              <div class="interest-tags">
+                <span class="tag">Java Programming</span>
+                <span class="tag">Web Development (HTML &amp; CSS)</span>
+                <span class="tag">Basic C++</span>
+                <span class="tag">Problem Solving &amp; Logic</span>
+                <span class="tag">DSA in Java (Planned Next)</span>
+                <span class="tag">Tally Prime &amp; MS Office</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-side-cards">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="feature-info">
+                <h4>Academic Journey</h4>
+                <p>Enrolled in B.Tech CSE at LNCTS Bhopal (Expected Graduation: 2029) with a 7.8 first-semester CGPA.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="feature-info">
+                <h4>Practical Learning</h4>
+                <p>Writing Java programs to understand object-oriented logic, and building clean web layouts with HTML and CSS.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <div class="feature-info">
+                <h4>Continuous Growth</h4>
+                <p>Developing analytical reasoning, critical thinking, communication, and preparing for future engineering milestones.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Technical Skills Section -->
+    <section class="section skills-section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">02. Capabilities</p>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-subtext">
+          An honest presentation of my current technical learning, foundational skills, and professional competencies.
+        </p>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Currently Learning -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper">
+                <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Currently Learning</h3>
+                <span class="category-sub">Programming &amp; Core Logic</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Java Programming</span>
+                <span class="pill-level">Currently Learning</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot" style="background-color: var(--accent-blue);"></span>
+                <span class="pill-name">Data Structures and Algorithms (DSA) in Java</span>
+                <span class="pill-level" style="color: var(--accent-blue); background-color: var(--accent-blue-bg); border-color: var(--accent-blue-border);">Planned / Coming Soon</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper">
+                <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Web Development</h3>
+                <span class="category-sub">Structure &amp; Styling</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">HTML</span>
+                <span class="pill-level">Page Structure</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">CSS</span>
+                <span class="pill-level">Styling &amp; Layout</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Other Skills and Software -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper">
+                <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Other Skills &amp; Software</h3>
+                <span class="category-sub">Foundations &amp; Applications</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">C++</span>
+                <span class="pill-level">Basic Knowledge</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Tally Prime</span>
+                <span class="pill-level">Certified (ESL Tally)</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">MS Office (Word, Excel, PowerPoint)</span>
+                <span class="pill-level">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Professional Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper">
+                <svg class="category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Professional Skills</h3>
+                <span class="category-sub">Interpersonal &amp; Problem Solving</span>
+              </div>
+            </div>
+            <div class="skill-items">
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Problem-Solving</span>
+                <span class="pill-level">Core Strength</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Analytical &amp; Logical Reasoning</span>
+                <span class="pill-level">Active Focus</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Critical Thinking</span>
+                <span class="pill-level">Active Focus</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Communication</span>
+                <span class="pill-level">Interpersonal</span>
+              </div>
+              <div class="skill-pill">
+                <span class="pill-dot"></span>
+                <span class="pill-name">Leadership &amp; Team Management</span>
+                <span class="pill-level">Collaborative</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Certifications Section -->
+    <section class="section certifications-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">03. Verified Credentials</p>
+          <h2 class="section-title">Certifications &amp; Training</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-subtext">
+          Formal technical certifications and training successfully completed based on verified credentials.
+        </p>
+
+        <div class="certifications-grid">
+          
+          <!-- Certification 1: Tally Prime -->
+          <div class="certification-card">
+            <div class="cert-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="cert-body">
+              <span class="cert-badge">Score: 92%</span>
+              <h3 class="cert-title">Tally Prime</h3>
+              <p class="cert-issuer">Issuing Organization: <strong>ESL Tally</strong></p>
+              <p class="cert-desc">
+                Completed comprehensive training and certification in Tally Prime by ESL Tally, securing a score of 92% covering computerized business accounting, digital ledger maintenance, and inventory workflows.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certification 2: Basic Computer Course -->
+          <div class="certification-card">
+            <div class="cert-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="cert-body">
+              <span class="cert-badge">Foundational Course</span>
+              <h3 class="cert-title">Basic Computer Course</h3>
+              <p class="cert-issuer">Category: <strong>Foundational IT Training</strong></p>
+              <p class="cert-desc">
+                Completed fundamental computer education covering computer operating principles, system utilities, digital document handling, and productive office software usage.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Achievements Section -->
+    <section class="section achievements-section section-alt" id="achievements">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">04. Milestones</p>
+          <h2 class="section-title">Achievements</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-subtext">
+          Recognitions and competitive participation achieved during school and academic years.
+        </p>
+
+        <div class="achievements-grid">
+          
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="6"></circle>
+                <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <h4>District-Level Drawing Competition</h4>
+              <p>Achieved <strong>Rank 2</strong> in a district-level drawing competition, demonstrating creativity, focus, and visual presentation skills.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <h4>Indira Gandhi Handwriting Competition</h4>
+              <p>Awarded an official Certificate of Recognition in the Indira Gandhi Handwriting Competition for penmanship excellence.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                <line x1="7" y1="8" x2="17" y2="8"></line>
+                <line x1="7" y1="12" x2="17" y2="12"></line>
+                <line x1="7" y1="16" x2="12" y2="16"></line>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <h4>State-Level Mathematics Olympiads</h4>
+              <p>Participated in state-level Mathematics Olympiads, strengthening analytical thinking and quantitative problem-solving ability.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">05. Project Workspace</p>
+          <h2 class="section-title">Projects Coming Soon</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-subtext">
+          I am currently building my core skills in Java and web development. This section is reserved for my upcoming projects—please check back soon!
+        </p>
+
+        <!-- Project Cards Grid with Clean Placeholders -->
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- Placeholder Project 1: Future Java Project -->
+          <article class="project-card project-placeholder">
+            <div class="card-badge placeholder-badge">⚡ Coming Soon</div>
+            <div class="card-preview">
+              <div class="preview-terminal">
+                <span class="term-line"><span class="term-prompt">java&gt;</span> // Java Application Workspace</span>
+                <span class="term-output">&gt; Object-Oriented Programming &amp; Logic</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-type">Java Programming</span>
+              </div>
+              <h3 class="project-title">Java Project (In Preparation)</h3>
+              <p class="project-desc">
+                Dedicated workspace for an upcoming Java project. Planned to apply Object-Oriented Programming (OOP) concepts such as classes, encapsulation, and inheritance as my Java learning progresses.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">OOP Concepts</span>
+                <span class="tech-tag">Planned</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-demo-trigger" data-title="Java Project (In Preparation)" data-type="Java Project Workspace" style="grid-column: 1 / -1;">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Placeholder Project 2: Future Web Development Project -->
+          <article class="project-card project-placeholder">
+            <div class="card-badge placeholder-badge">⚡ Coming Soon</div>
+            <div class="card-preview">
+              <div class="preview-browser">
+                <div class="browser-dot"></div>
+                <div class="browser-dot"></div>
+                <div class="browser-dot"></div>
+                <div class="browser-bar">web-project/index.html</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-type">Web Development</span>
+              </div>
+              <h3 class="project-title">Web Development Project (In Preparation)</h3>
+              <p class="project-desc">
+                Dedicated workspace for an upcoming responsive web project. Planned to apply clean semantic HTML structure and CSS styling layouts to build an interactive, accessible user interface.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">Responsive Layout</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-demo-trigger" data-title="Web Development Project (In Preparation)" data-type="Web Project Workspace" style="grid-column: 1 / -1;">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Project Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Placeholder Project 3: Planned DSA Milestone -->
+          <article class="project-card project-placeholder">
+            <div class="card-badge placeholder-badge">⚡ Coming Soon</div>
+            <div class="card-preview">
+              <div class="preview-btree">
+                <div class="btree-node root-node">[DSA in Java]</div>
+                <div class="btree-branches">
+                  <div class="btree-node">[Data Structures]</div>
+                  <div class="btree-node">[Algorithms]</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-type">Upcoming Milestone</span>
+              </div>
+              <h3 class="project-title">DSA Practice Repository</h3>
+              <p class="project-desc">
+                Planned problem-solving repository to document and practice core Data Structures and Algorithms in Java once the foundation in Java programming is established.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">DSA</span>
+                <span class="tech-tag">Planned Milestone</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-outline project-demo-trigger" data-title="DSA Practice Repository" data-type="Milestone Workspace" style="grid-column: 1 / -1;">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                  </svg>
+                  Milestone Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Instructional Box for Adding Real Projects -->
+        <div class="project-instruction-box">
+          <div class="instruction-icon">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </div>
+          <div class="instruction-text">
+            <h4>Ready for Your Real Projects</h4>
+            <p>
+              When you complete a project, simply open <code>index.html</code>, update any placeholder card with your project title, description, and link your real GitHub repository.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. Education Section -->
+    <section class="section education-section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">06. Academic Background</p>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-subtext">
+          My verified educational qualifications and academic progression based on actual records.
+        </p>
+
+        <div class="timeline">
+
+          <!-- Education Item 1: B.Tech -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge">2025 &ndash; 2029 (Expected)</span>
+                <span class="timeline-meta">Current: Second Year</span>
+              </div>
+              <h3 class="timeline-title">Bachelor of Technology (B.Tech) in Computer Science Engineering</h3>
+              <h4 class="timeline-institution">Lakshmi Narain College of Technology &amp; Science (LNCTS), Bhopal</h4>
+              
+              <div class="timeline-stats-row">
+                <div class="t-stat">
+                  <strong>University:</strong> Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)
+                </div>
+                <div class="t-stat">
+                  <strong>First-Semester CGPA:</strong> 7.8
+                </div>
+                <div class="t-stat">
+                  <strong>Expected Graduation:</strong> 2029
+                </div>
+              </div>
+
+              <p class="timeline-text">
+                Currently in the second year of B.Tech CSE, developing core competence in software principles, programming logic in Java, and engineering fundamentals. (Note: 7.8 represents the first-semester CGPA).
+              </p>
+            </div>
+          </div>
+
+          <!-- Education Item 2: Class XII -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge">Completed 2024</span>
+                <span class="timeline-meta">Senior Secondary (CBSE)</span>
+              </div>
+              <h3 class="timeline-title">Senior Secondary School Certificate (Class XII)</h3>
+              <h4 class="timeline-institution">G.C.M. Convent Senior Secondary School, Nowgong, Chhatarpur</h4>
+              
+              <div class="timeline-stats-row">
+                <div class="t-stat">
+                  <strong>Board:</strong> CBSE
+                </div>
+                <div class="t-stat">
+                  <strong>Percentage:</strong> 79%
+                </div>
+                <div class="t-stat">
+                  <strong>Passing Year:</strong> 2024
+                </div>
+              </div>
+
+              <p class="timeline-text">
+                Completed Class XII senior secondary education under the CBSE curriculum with an aggregate score of 79%.
+              </p>
+            </div>
+          </div>
+
+          <!-- Education Item 3: Class X -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge">Completed 2022</span>
+                <span class="timeline-meta">Secondary School (CBSE)</span>
+              </div>
+              <h3 class="timeline-title">Secondary School Certificate (Class X)</h3>
+              <h4 class="timeline-institution">G.C.M. Convent Senior Secondary School, Nowgong</h4>
+              
+              <div class="timeline-stats-row">
+                <div class="t-stat">
+                  <strong>Board:</strong> CBSE
+                </div>
+                <div class="t-stat">
+                  <strong>Percentage:</strong> 85.6%
+                </div>
+                <div class="t-stat">
+                  <strong>Passing Year:</strong> 2022
+                </div>
+              </div>
+
+              <p class="timeline-text">
+                Completed Class X secondary education under the CBSE curriculum with an aggregate score of 85.6%.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">07. Get In Touch</p>
+          <h2 class="section-title">Contact &amp; Connect</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <p class="section-subtext">
+          Whether you want to discuss student projects, share learning opportunities, or connect—feel free to drop a message!
+        </p>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Details -->
+          <div class="contact-info-card">
+            <h3 class="contact-card-title">Let's Connect</h3>
+            <p class="contact-card-p">
+              I am a second-year Computer Science Engineering student eager to learn and connect with peers and mentors.
+            </p>
+
+            <div class="contact-items">
+              
+              <!-- Real Clickable Email Address -->
+              <a href="mailto:raghavsoni5053@gmail.com" class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-label">Email Address (Click to mail)</span>
+                  <span class="contact-value">raghavsoni5053@gmail.com</span>
+                </div>
+              </a>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-label">Location &amp; College</span>
+                  <span class="contact-value">Bhopal, Madhya Pradesh &bull; LNCTS</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <span class="contact-label">Current Academic Level</span>
+                  <span class="contact-value">Second-Year B.Tech CSE (RGPV)</span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Social Links Placeholder -->
+            <div class="social-links-wrapper">
+              <span class="social-title">Connect Online:</span>
+              <div class="social-links">
+                <!-- GitHub Profile -->
+                <a href="https://github.com/raghavsoni5053-rgb" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Visit Raghav Soni's GitHub profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Profile</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/raghav-soni-1500a0393" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Visit Raghav Soni's LinkedIn profile">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Functional Contact Form -->
+          <div class="contact-form-card">
+            <h3 class="contact-card-title">Send a Direct Message</h3>
+            <p class="contact-card-p">Have a question or feedback? Fill in the form below.</p>
+
+            <form id="contact-form" class="contact-form" novalidate>
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                  <span class="field-error" id="name-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. rahul@example.com" required>
+                  <span class="field-error" id="email-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <div class="input-wrapper">
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Student Collaboration / Question">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message <span class="required">*</span></label>
+                <div class="input-wrapper">
+                  <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Hi Raghav, I checked out your portfolio and wanted to reach out regarding..." required></textarea>
+                  <span class="field-error" id="message-error"></span>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+                <span class="btn-text">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  Send Message
+                </span>
+                <span class="spinner" id="form-spinner"></span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          Raghav Soni<span class="logo-dot">.</span><span class="logo-subtitle">CSE Student</span>
+        </a>
+        <p class="footer-tagline">Second-Year CSE Student &bull; LNCTS Bhopal (RGPV) &bull; <a href="mailto:raghavsoni5053@gmail.com">raghavsoni5053@gmail.com</a></p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Raghav Soni. Built with HTML, CSS &amp; Vanilla JavaScript.</p>
+        <div class="footer-actions">
+          <a href="https://github.com/raghavsoni5053-rgb" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Visit Raghav Soni's GitHub profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/raghav-soni-1500a0393" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Visit Raghav Soni's LinkedIn profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <div class="toast-icon">✔</div>
+    <div class="toast-message" id="toast-message">Message sent successfully!</div>
+  </div>
+
+  <!-- Project Details Modal -->
+  <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="proj-modal-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="proj-modal-title">Project Details</h3>
+          <p class="modal-subtitle" id="proj-modal-subtitle">Project Workspace</p>
+        </div>
+        <button class="modal-close" id="proj-modal-close" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="proj-modal-body">
+        <!-- Dynamically populated via JS -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="proj-modal-done">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
